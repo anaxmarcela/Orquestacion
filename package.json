@@ -1,0 +1,19 @@
+{
+  "name": "orquestacion-parachute",
+  "version": "1.0.0",
+  "description": "Sistema multiagente de Parachute S.A. con arquitecturas centralizada, jerárquica y descentralizada",
+  "type": "module",
+  "scripts": {
+    "centralizada": "node arquitecturas/centralizada.js",
+    "jerarquica": "node arquitecturas/jerarquica.js",
+    "descentralizada": "node arquitecturas/descentralizada.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@openai/agents": "^0.19.0",
+    "dotenv": "^16.4.5",
+    "openai": "^7.28.0",
+    "zod": "^4.6.5"
+  }
+}
